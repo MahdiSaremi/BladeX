@@ -1,0 +1,31 @@
+{
+    "name": "mmb/bladex",
+    "description": "Advanced laravel blade",
+    "keywords": ["Laravel", "Blade", "Html", "Php", "Component"],
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "10.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mmb\\BladeX\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Saremi",
+            "email": "mahdisarmi00@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mmb\\BladeX\\BladeXServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
