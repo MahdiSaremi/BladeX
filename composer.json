@@ -1,6 +1,6 @@
 {
     "name": "mmb/bladex",
-    "description": "Advanced laravel blade",
+    "description": "Advanced laravel blade.",
     "keywords": ["Laravel", "Blade", "Html", "Php", "Component"],
     "type": "library",
     "require": {
