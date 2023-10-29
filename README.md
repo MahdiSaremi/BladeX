@@ -141,7 +141,7 @@ For example, create file `resources/views/.blade.php` with the following content
 ```php
 <?php
 
-# Note: After editing this source, run `php artisan view:clear` once.
+# Note: After editing this source, run `php artisan view:clear` one time.
 
 return [
     # Use components alias
