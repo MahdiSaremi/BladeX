@@ -12,7 +12,7 @@ This package adds some features to make it easier to work with components and ht
 
 ## Requirements
 * Php 8.0 or higher
-* Laravel 8.0 or higher
+* Laravel 10.0 or higher
 
 
 ## Installation
