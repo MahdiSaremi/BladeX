@@ -4,7 +4,6 @@
     "keywords": ["Laravel", "Blade", "Html", "Php", "Component"],
     "type": "library",
     "require": {
-        "php": "^7.4",
         "laravel/framework": "10.*"
     },
     "license": "MIT",
