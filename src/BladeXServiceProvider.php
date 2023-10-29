@@ -16,7 +16,7 @@ class BladeXServiceProvider extends ServiceProvider
     {
         $this->app->singleton(BladeXCompiler::class);
 
-        $this->callAfterResolving(BladeCompiler::class, [ $this, 'bootBlade' ]);
+        $this->callAfterResolving(BladeCompiler::class, fn($blade) => $this->bootBlade($blade));
 
         $this->loadViewsFrom(resource_path('test-views'), 'Test');
     }
